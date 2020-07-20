@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="9wZ-17-Mho">
-                                        <rect key="frame" x="24" y="50" width="366" height="658"/>
+                                        <rect key="frame" x="24" y="50" width="366" height="842"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="らべる System 17.0 Regular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjU-te-yEC">
                                                 <rect key="frame" x="0.0" y="0.0" width="366" height="20.5"/>
@@ -105,8 +105,27 @@
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbL-Eb-Jog">
+                                                <rect key="frame" x="0.0" y="506" width="366" height="30"/>
+                                                <state key="normal" title="ぼたん System 15.0 Regular"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jvf-1g-Ds5">
+                                                <rect key="frame" x="0.0" y="552" width="366" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                                <state key="normal" title="ぼたん System 15.0 Medium"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myJ-CV-WHm">
+                                                <rect key="frame" x="0.0" y="598" width="366" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                <state key="normal" title="ぼたん System 15.0 Regular"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCl-rO-Yr0">
+                                                <rect key="frame" x="0.0" y="644" width="366" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="ぼたん System 15.0 Bold"/>
+                                            </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LI8-EW-VZC">
-                                                <rect key="frame" x="0.0" y="506" width="366" height="40"/>
+                                                <rect key="frame" x="0.0" y="690" width="366" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="UEK-ta-x9q"/>
@@ -116,7 +135,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="サンプル文字列あり" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gur-QI-7fZ">
-                                                <rect key="frame" x="0.0" y="562" width="366" height="40"/>
+                                                <rect key="frame" x="0.0" y="746" width="366" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="NnV-76-G0L"/>
@@ -126,7 +145,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="サンプル文字列あり" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TEe-yk-Lp6">
-                                                <rect key="frame" x="0.0" y="618" width="366" height="40"/>
+                                                <rect key="frame" x="0.0" y="802" width="366" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="e7d-Bo-py5"/>
