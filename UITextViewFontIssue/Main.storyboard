@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="9wZ-17-Mho">
-                                        <rect key="frame" x="24" y="50" width="366" height="610"/>
+                                        <rect key="frame" x="24" y="50" width="366" height="658"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="らべる System 17.0 Regular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjU-te-yEC">
                                                 <rect key="frame" x="0.0" y="0.0" width="366" height="20.5"/>
@@ -106,30 +106,30 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LI8-EW-VZC">
-                                                <rect key="frame" x="0.0" y="506" width="366" height="24"/>
+                                                <rect key="frame" x="0.0" y="506" width="366" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="24" id="UEK-ta-x9q"/>
+                                                    <constraint firstAttribute="height" constant="40" id="UEK-ta-x9q"/>
                                                 </constraints>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="サンプル文字列あり" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gur-QI-7fZ">
-                                                <rect key="frame" x="0.0" y="546" width="366" height="24"/>
+                                                <rect key="frame" x="0.0" y="562" width="366" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="24" id="NnV-76-G0L"/>
+                                                    <constraint firstAttribute="height" constant="40" id="NnV-76-G0L"/>
                                                 </constraints>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="サンプル文字列あり" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TEe-yk-Lp6">
-                                                <rect key="frame" x="0.0" y="586" width="366" height="24"/>
+                                                <rect key="frame" x="0.0" y="618" width="366" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="24" id="e7d-Bo-py5"/>
+                                                    <constraint firstAttribute="height" constant="40" id="e7d-Bo-py5"/>
                                                 </constraints>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
